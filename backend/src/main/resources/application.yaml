@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: backend
+
+
+  # Database Information
+  datasourse:
+    url:
+    username:
+    password:
+
+
+  # Hibernate ORM Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: ture
+
+
